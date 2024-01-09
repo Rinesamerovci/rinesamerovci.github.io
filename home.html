@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>FreePalestin</title>
+
+</head>
+<body id="rinesa.website">
+    <section class="rm-header">
+        <nav>
+            <a href="home.html"><img src="images/logoo.png" alt="logo"></a>
+            <div class="rm-nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    
+                    <li><a href="home.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="palestine.html">Palestine</a></li>
+                  <li><a href="israel.html">Israel</a></li>
+                  <li><a href="war.html">War</a></li>
+                  <li><a href="donatcion.html">Donatcion</a></li>
+                  <li><a href="payament.html">Payament</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+       
+        <div class="rm-text-box">
+            <h1>FreePalestine</h1>
+            <p>This website is a opportunity to show us the truth between Palestin and Israel war,<br>
+            in witch you can donate to help the people in need and be the an example for others</p>
+            <a href="#" class="rm-hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!--------Course--------->
+    <section class="rm-course">
+        <h1>About Us</h1>
+       
+
+        <div class="rm-row">
+            <div class="rm-course-col">
+                <h3>Palestine</h3>
+                <p>Palestine, is a state in the Southern Levant region of West Asia. 
+                    Founded on 15 November 1988 and officially governed by the Palestine Liberation Organization (PLO), it claims the West Bank (including East Jerusalem) and the Gaza Strip as its territory, all of which has been Israeli-occupied territories since the 1967 Six-Day War.
+                     The West Bank contains 165 Palestinian enclaves that are under partial Palestinian rule, but the remainder, including 200 Israeli settlements, is under full Israeli control. The Gaza Strip was governed by Egypt but conquered by Israel in 1967. Israel governed the region until it withdrew in 2005. Hamas seized power after winning the 2006 Palestinian legislative election. 
+                    The Gaza Strip has since been blockaded by Israel and Egypt. For more <a href="palestine.html">Click here.</a>   </p>
+            </div>
+
+            <div class="rm-course-col">
+                <h3>Israel</h3>
+                <p> Israel, is a country in West Asia. It is bordered by Lebanon to the north, by Syria to the northeast, by Jordan to the east, by the Red Sea to the south,
+                     by Egypt to the southwest, by the Mediterranean Sea to the west, and by the Palestinian territories 
+                     the West Bank along the east and the Gaza Strip along the southwest.
+                     Tel Aviv is the financial, economic, and technological center of the country,
+                      while its seat of government is in its proclaimed capital of Jerusalem, although Israeli sovereignty over East Jerusalem is unrecognized internationally. For more <a href="israel.html">Click here.</a>     </p>
+            </div>
+
+            <div class="rm-course-col">
+                <h3>War</h3>
+                <p>The Israeli–Palestinian conflict is an ongoing military and political conflict in the Levant.
+                     Beginning in the mid-20th century, it is one of the world's longest-continuing conflicts.
+                      The current Israeli-Palestinian status quo began following Israeli military occupation of the West Bank and Gaza, known as the Palestinian territories, in the 1967 Six-Day War.
+                     Various attempts have been made to resolve the conflict as part of the Israeli–Palestinian peace process, alongside other efforts to resolve the broader Arab–Israeli conflict. <a href="war.html">Click here.</a>   </p>
+            </div>
+        </div>
+
+
+
+    </section>
+    <!-----Contact Us----->
+
+    <section class="rm-cta">
+
+        <h1>Enroll on our site to know the truth <br> about the Palestinian and Israeli war.</h1>
+        <a href="contact.html" class="rm-hero-btn">Contact Us</a>
+
+    </section>
+
+
+    <!-------About Us-------->
+
+    <section class="rm-footer">
+        <h4>About Us</h4>
+        <p>This website is a opportunity to show us the truth between Palestin and Israel war, <br>
+            in witch you can donate to help the people in need and be the an example for others.</p>
+
+            <div class="rm-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i>  </p>
+    </section>
+
+
+
+
+
+    <!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>

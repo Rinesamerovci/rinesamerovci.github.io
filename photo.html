@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Photo</title>
+
+</head>
+<body id="rinesa.website">
+    <section class="rm-photo-header">
+        <nav>
+            <a href="home.html"><img src="images/logoo.png" alt="logo"></a>
+            <div class="rm-nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="palestine.html">Palestine</a></li>
+                  <li><a href="israel.html">Israel</a></li>
+                  <li><a href="war.html">War</a></li>
+                  <li><a href="donatcion.html">Donatcion</a></li>
+                  <li><a href="payament.html">Payament</a></li>
+                  <li><a href="login.html">Login</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </div>
+        </nav>
+        <h1>Photo</h1>
+    </section>
+
+    
+    <div class="rm-foto">
+      <div class="rm-first">
+        <img src="images/chil.jpg" >
+        <img src="images/chi.jpg" >
+        <img src="images/child.jpg" >
+        <img src="images/childr.jpg" >
+        <img src="images/children.jpg" >
+        <img src="images/hell.jpg" >
+        
+        <img src="images/war.jpg" >
+        <img src="images/ch.jpg" >
+        <img src="images/Palestine.jpeg" >
+        <img src="images/first.webp" >
+        <img src="images/contact.avif" >
+        <img src="images/contactt.jpg" >
+        <img src="images/conflict.jpg" >
+        <img src="images/Mosque.jpeg" >
+        <img src="images/t.webp     " >
+      </div>
+    </div>
+   
+    
+
+
+    <!-------About Us-------->
+
+    <section class="rm-footer">
+        <h4>About Us</h4>
+        <p>This website is a opportunity to show us the truth between Palestin and Israel war, <br>
+            in witch you can donate to help the people in need and be the an example for others.</p>
+
+            <div class="rm-icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i>  </p>
+    </section>
+
+
+
+
+
+    <!------JavaScript for Toggle Menu------>
+<script>
+
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
